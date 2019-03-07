@@ -2,6 +2,9 @@
 
 A collection of Javascript utilities that we use internally.
 
-## TODO
+## TODOS
 
+- Add jest
+- Add missing tests
 - Add eslint and prettier config
+- Add docs
