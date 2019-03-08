@@ -61,7 +61,13 @@ git clone https://github.com/AuxStudio/js-simple-utils
 yarn test
 ```
 
-2. Run the publish script.
+2. Login to npm
+
+```
+npm login
+```
+
+3. Run the publish script.
 
 ```
 yarn run publish
