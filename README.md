@@ -2,6 +2,20 @@
 
 A collection of Javascript utilities that we use internally.
 
+## INSTALL
+
+```
+yarn add js-simple-utils
+```
+
+## USAGE
+
+```js
+import { convertObjectToArray } from 'js-simple-utils';
+
+const array = convertObjectToArray({ foo: { name: 'bar' } });
+```
+
 ## UTILITIES
 
 - [x] addZeroPadding - Takes a number/string and adds 0 padding if necessary and returns a string
@@ -28,11 +42,19 @@ A collection of Javascript utilities that we use internally.
 - [x] validateEmail - Validate email addresses
 - [x] validateIDNumber - Validate South African ID numbers
 
+## Development
+
+1. Clone the project:
+
+```
+git clone https://github.com/AuxStudio/js-simple-utils
+```
+
+2. Do some work.
+3. Create a PR.
+
 ## TODOS
 
-- Add install notes
-- Add usage notes
-- Add development notes
 - Add releasing notes
 - Add missing tests
 - Add Travis
