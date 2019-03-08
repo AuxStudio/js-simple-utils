@@ -1,5 +1,5 @@
 /*
-  Takes a unix timestamp and returns a pretty date in the formats:
+  Get date in a pretty format from a timestamp, ie.:
 
   - Sat, 3 Feb (timestamp)
   - Saturday, 3 February (timestamp, false, true)

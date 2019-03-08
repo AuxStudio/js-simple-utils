@@ -1,6 +1,6 @@
 import addZeroPadding from '../addZeroPadding';
 
-// Takes a timestamp and returns the time in the format: 13:00
+// Get the hours and minutes in the format HH:MM from a timestamp
 const getHoursMinutes = (timestamp) => {
   const date = new Date(timestamp);
 

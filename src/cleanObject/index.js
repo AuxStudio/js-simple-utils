@@ -1,4 +1,4 @@
-// Remove all falsy elements from an object
+// Remove all falsy fields from an object
 const cleanObject = (object) => {
   const cleanedObject = object;
 

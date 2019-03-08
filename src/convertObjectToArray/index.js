@@ -1,4 +1,4 @@
-// converts an object into an array, keeping the key (as id)
+// Converts an object into an array, keeping the key (as id)
 /*
   {
     id_1: {

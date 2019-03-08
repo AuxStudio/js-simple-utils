@@ -1,4 +1,4 @@
-// Takes a timestamp and returns the amount of hours that have passed, to the nearest hour
+// Get the amount of hours that have elapsed since a timestamp
 const getElapsedHours = (timestamp) => {
   if (timestamp) {
     const now = Date.now();

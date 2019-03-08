@@ -1,5 +1,6 @@
 import firstCharToUpperCase from '../firstCharToUpperCase';
 
+// Convert a string to Title Case
 const stringToTitleCase = (string) => {
   const newString = string
     .split(' ')

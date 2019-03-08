@@ -1,3 +1,4 @@
+// Validate South African cell phone numbers
 const validateCellNumber = (cellNumber) => {
   if (cellNumber) {
     const regex = /^(\+?27|0)[6-8][0-9]{8}$/;

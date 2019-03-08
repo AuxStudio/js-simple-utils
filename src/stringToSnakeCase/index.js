@@ -1,4 +1,4 @@
-// Takes a string and returns it in snake_case format
+// Convert a string to snake_case
 const stringToSnakeCase = (string) => {
   const words = string.split(' ');
   const newWords = words.map((word) => {

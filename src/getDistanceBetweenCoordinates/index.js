@@ -1,5 +1,6 @@
 import convertDegreesToRadians from './convertDegreesToRadians';
 
+// Gets the distance between two sets of coordinates
 // https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula (https://stackoverflow.com/users/1921/chuck)
 const getDistanceBetweenCoordinates = (setA, setB) => {
   const R = 6371; // Radius of the earth in km

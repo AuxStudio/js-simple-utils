@@ -1,4 +1,4 @@
-// checks if an object is empty and returns true or false
+// Checks if an object is empty and returns true or false
 const isEmptyObject = (object) => {
   /* eslint-disable no-unneeded-ternary */
   // necessary for correct props in test

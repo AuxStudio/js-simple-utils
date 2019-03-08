@@ -1,3 +1,4 @@
+// Convert a snake_case string to UPPERCASE
 const snakeCaseToUpperCase = (string) => {
   const sentence = string
     .split('_')

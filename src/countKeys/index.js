@@ -1,4 +1,4 @@
-// Counts an objects keys (key: value pairs)
+// Counts an objects keys (nesting included)
 const countKeys = (obj) => {
   let count = 0;
 

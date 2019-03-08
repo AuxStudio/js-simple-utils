@@ -1,4 +1,4 @@
-// returns a copy of an object
+// Returns a copy of an object
 const cloneObject = (object) => {
   try {
     return JSON.parse(JSON.stringify(object)); // fails for circular objects

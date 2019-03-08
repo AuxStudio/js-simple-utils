@@ -1,4 +1,4 @@
-// creates a unique id
+// Creates a unique id
 const createUID = () => {
   let d = new Date().getTime();
   if (typeof performance !== 'undefined' && typeof performance.now === 'function') {

@@ -1,3 +1,4 @@
+// Reorders an item in an array
 const reorderArrayItems = (array, fromIndex, toIndex) => {
   const result = Array.from(array);
   const [removed] = result.splice(fromIndex, 1);
