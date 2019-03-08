@@ -17,21 +17,21 @@
 */
 
 const convertObjectToArray = (object, keyNameForFlatObject) => {
-  let array = Object.keys(object).map(id => {
-    if (typeof object[id] === "object") {
+  let array = Object.keys(object).map((id) => {
+    if (typeof object[id] === 'object') {
       return { ...object[id], id };
     }
     if (keyNameForFlatObject) {
       return {
         name: object[id],
-        id
+        id,
       };
     }
     return null;
   });
 
   // Remove null items (if any)
-  array = array.filter(item => item);
+  array = array.filter((item) => item);
 
   return array;
 };

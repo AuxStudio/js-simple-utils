@@ -1,7 +1,7 @@
-import getElapsedHours from "..";
+import getElapsedHours from '..';
 
-describe("getElapsedHours", () => {
-  it("should work", () => {
+describe('getElapsedHours', () => {
+  it('should work', () => {
     const oneHourInMS = 1000 * 60 * 60; // ms * s * min
     const threeHoursAgo = Date.now() - oneHourInMS * 3;
     const fortyHoursAgo = Date.now() - oneHourInMS * 40;

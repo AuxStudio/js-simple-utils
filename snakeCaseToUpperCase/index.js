@@ -1,10 +1,10 @@
-const snakeCaseToUpperCase = string => {
+const snakeCaseToUpperCase = (string) => {
   const sentence = string
-    .split("_")
-    .map(word => {
+    .split('_')
+    .map((word) => {
       return word.toUpperCase();
     })
-    .join(" ");
+    .join(' ');
 
   return sentence;
 };

@@ -1,4 +1,4 @@
-import convertDegreesToRadians from "./convertDegreesToRadians";
+import convertDegreesToRadians from './convertDegreesToRadians';
 
 // https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula (https://stackoverflow.com/users/1921/chuck)
 const getDistanceBetweenCoordinates = (setA, setB) => {
