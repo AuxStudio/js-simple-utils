@@ -53,9 +53,22 @@ git clone https://github.com/AuxStudio/js-simple-utils
 2. Do some work.
 3. Create a PR.
 
+## Releases
+
+1. Run tests to make sure that they're passing.
+
+```
+yarn test
+```
+
+2. Run the publish script.
+
+```
+yarn run publish
+```
+
 ## TODOS
 
-- Add releasing notes
 - Add missing tests
 - Add Travis
 - Add supporting docs
