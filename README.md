@@ -2,13 +2,13 @@
 
 A collection of Javascript utilities that we use internally.
 
-## INSTALL
+## Installation
 
 ```
 yarn add js-simple-utils
 ```
 
-## USAGE
+## Usage
 
 ```js
 import { convertObjectToArray } from 'js-simple-utils';
@@ -16,7 +16,7 @@ import { convertObjectToArray } from 'js-simple-utils';
 const array = convertObjectToArray({ foo: { name: 'bar' } });
 ```
 
-## UTILITIES
+## Utilities
 
 - [x] addZeroPadding - Takes a number/string and adds 0 padding if necessary and returns a string
 - [x] cleanObject - Remove all falsy fields from an object
