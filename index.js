@@ -1,26 +1,26 @@
-import addZeroPadding from "./addZeroPadding";
-import cleanObject from "./cleanObject";
-import cloneObject from "./cloneObject";
-import convertObjectToArray from "./convertObjectToArray";
-import countKeys from "./countKeys";
-import createUID from "./createUID";
-import firstCharToUpperCase from "./firstCharToUpperCase";
-import getDistanceBetweenCoordinates from "./getDistanceBetweenCoordinates";
-import getElapsedDays from "./getElapsedDays";
-import getElapsedHours from "./getElapsedHours";
-import getHoursMinutes from "./getHoursMinutes";
-import getPercentage from "./getPercentage";
-import getPrettyDate from "./getPrettyDate";
-import getRandomInt from "./getRandomInt";
-import isEmptyObject from "./isEmptyObject";
-import reorderArrayItems from "./reorderArrayItems";
-import snakeCaseToUpperCase from "./snakeCaseToUpperCase";
-import sortArrayOfObjectsByKey from "./sortArrayOfObjectsByKey";
-import stringToSnakeCase from "./stringToSnakeCase";
-import stringToTitleCase from "./stringToTitleCase";
-import validateCellNumber from "./validateCellNumber";
-import validateEmail from "./validateEmail";
-import validateIDNumber from "./validateIDNumber";
+import addZeroPadding from './src/addZeroPadding';
+import cleanObject from './src/cleanObject';
+import cloneObject from './src/cloneObject';
+import convertObjectToArray from './src/convertObjectToArray';
+import countKeys from './src/countKeys';
+import createUID from './src/createUID';
+import firstCharToUpperCase from './src/firstCharToUpperCase';
+import getDistanceBetweenCoordinates from './src/getDistanceBetweenCoordinates';
+import getElapsedDays from './src/getElapsedDays';
+import getElapsedHours from './src/getElapsedHours';
+import getHoursMinutes from './src/getHoursMinutes';
+import getPercentage from './src/getPercentage';
+import getPrettyDate from './src/getPrettyDate';
+import getRandomInt from './src/getRandomInt';
+import isEmptyObject from './src/isEmptyObject';
+import reorderArrayItems from './src/reorderArrayItems';
+import snakeCaseToUpperCase from './src/snakeCaseToUpperCase';
+import sortArrayOfObjectsByKey from './src/sortArrayOfObjectsByKey';
+import stringToSnakeCase from './src/stringToSnakeCase';
+import stringToTitleCase from './src/stringToTitleCase';
+import validateCellNumber from './src/validateCellNumber';
+import validateEmail from './src/validateEmail';
+import validateIDNumber from './src/validateIDNumber';
 
 export {
   addZeroPadding,
@@ -45,7 +45,7 @@ export {
   stringToTitleCase,
   validateCellNumber,
   validateEmail,
-  validateIDNumber
+  validateIDNumber,
 };
 
 export default {
@@ -71,5 +71,5 @@ export default {
   stringToTitleCase,
   validateCellNumber,
   validateEmail,
-  validateIDNumber
+  validateIDNumber,
 };
