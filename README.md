@@ -4,7 +4,8 @@ A collection of Javascript utilities that we use internally.
 
 ## TODOS
 
+- Add eslint and prettier config
 - Add jest
 - Add missing tests
-- Add eslint and prettier config
+- Update README with list of functions
 - Add docs
