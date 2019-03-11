@@ -1,5 +1,7 @@
 # js-simple-utils
 
+[![Build Status](https://travis-ci.com/AuxStudio/js-simple-utils.svg?branch=master)](https://travis-ci.com/AuxStudio/js-simple-utils)
+
 A collection of Javascript utilities that we use internally.
 
 ## Installation
