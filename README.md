@@ -73,6 +73,4 @@ yarn run publish
 
 ## TODOS
 
-- Add missing tests
-- Add Travis
 - Add supporting docs
