@@ -2,8 +2,9 @@ import luhn from './luhn';
 
 // Validate South African ID numbers
 const validateIDNumber = (IDnumber) => {
+  // Convert to string if its a number
   // Replace all blank characters
-  const string = IDnumber.replace(/\s/g, '');
+  const string = IDnumber.toString().replace(/\s/g, '');
 
   // IF it does not exist
   if (!string) {
