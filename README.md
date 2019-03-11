@@ -72,7 +72,3 @@ npm login
 ```
 yarn run publish
 ```
-
-## TODOS
-
-- Add supporting docs
