@@ -34,9 +34,7 @@ const array = convertObjectToArray({ foo: { name: 'bar' } });
 - [x] getRandomInt - Returns a random integer
 - [x] isEmptyObject - Checks if an object is empty and returns true or false
 - [x] reorderArrayItems - Reorders an item in an array
-- [x] snakeCaseToUpperCase - Convert a snake_case string to UPPERCASE
 - [x] sortArrayOfObjectsByKey - Sorts an array of objects by key with optional reverse order functionality
-- [x] stringToSnakeCase - Convert a string to snake_case
 - [x] stringToTitleCase - Convert a string to Title Case
 - [x] validateCellNumber - Validate South African cell phone numbers
 - [x] validateEmail - Validate email addresses
