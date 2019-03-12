@@ -7,6 +7,6 @@ describe('getRandomInt', () => {
     const randomInt = getRandomInt(min, max);
 
     expect(randomInt).toBeGreaterThanOrEqual(min);
-    expect(randomInt).toBeLessThan(max);
+    expect(randomInt).toBeLessThan(max + 1);
   });
 });
