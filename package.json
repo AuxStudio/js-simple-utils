@@ -1,16 +1,21 @@
 {
   "name": "js-simple-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of Javascript utilities that we use internally",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "https://github.com/AuxStudio/js-simple-utils.git",
   "author": "shaunsaker <shaun@aux.co.za>",
   "license": "MIT",
   "scripts": {
     "test": "jest --maxWorkers=4",
+    "clean": "rm -rf dist && mkdir dist",
+    "prebuild": "yarn run clean",
+    "build": "babel ./src -d ./dist --ignore test.js",
+    "prepublish": "yarn build",
     "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "babel-eslint": "^10.0.1",
@@ -25,6 +30,5 @@
     "jest": "^24.3.1",
     "prettier": "^1.16.4",
     "prettier-config-aux": "^0.1.0"
-  },
-  "dependencies": {}
+  }
 }

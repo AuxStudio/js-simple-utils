@@ -1,69 +1,21 @@
-import addZeroPadding from './addZeroPadding';
-import cleanObject from './cleanObject';
-import cloneObject from './cloneObject';
-import convertObjectToArray from './convertObjectToArray';
-import countKeys from './countKeys';
-import createUID from './createUID';
-import firstCharToUpperCase from './firstCharToUpperCase';
-import getDistanceBetweenCoordinates from './getDistanceBetweenCoordinates';
-import getElapsedDays from './getElapsedDays';
-import getElapsedHours from './getElapsedHours';
-import getHoursMinutes from './getHoursMinutes';
-import getPercentage from './getPercentage';
-import getPrettyDate from './getPrettyDate';
-import getRandomInt from './getRandomInt';
-import isEmptyObject from './isEmptyObject';
-import reorderArrayItems from './reorderArrayItems';
-import sortArrayOfObjectsByKey from './sortArrayOfObjectsByKey';
-import stringToTitleCase from './stringToTitleCase';
-import validateCellNumber from './validateCellNumber';
-import validateEmail from './validateEmail';
-import validateIDNumber from './validateIDNumber';
-
-export {
-  addZeroPadding,
-  cleanObject,
-  cloneObject,
-  convertObjectToArray,
-  countKeys,
-  createUID,
-  firstCharToUpperCase,
-  getDistanceBetweenCoordinates,
-  getElapsedDays,
-  getElapsedHours,
-  getHoursMinutes,
-  getPercentage,
-  getPrettyDate,
-  getRandomInt,
-  isEmptyObject,
-  reorderArrayItems,
-  sortArrayOfObjectsByKey,
-  stringToTitleCase,
-  validateCellNumber,
-  validateEmail,
-  validateIDNumber,
-};
-
-export default {
-  addZeroPadding,
-  cleanObject,
-  cloneObject,
-  convertObjectToArray,
-  countKeys,
-  createUID,
-  firstCharToUpperCase,
-  getDistanceBetweenCoordinates,
-  getElapsedDays,
-  getElapsedHours,
-  getHoursMinutes,
-  getPercentage,
-  getPrettyDate,
-  getRandomInt,
-  isEmptyObject,
-  reorderArrayItems,
-  sortArrayOfObjectsByKey,
-  stringToTitleCase,
-  validateCellNumber,
-  validateEmail,
-  validateIDNumber,
-};
+export { default as addZeroPadding } from './addZeroPadding';
+export { default as cleanObject } from './cleanObject';
+export { default as cloneObject } from './cloneObject';
+export { default as convertObjectToArray } from './convertObjectToArray';
+export { default as countKeys } from './countKeys';
+export { default as createUID } from './createUID';
+export { default as firstCharToUpperCase } from './firstCharToUpperCase';
+export { default as getDistanceBetweenCoordinates } from './getDistanceBetweenCoordinates';
+export { default as getElapsedDays } from './getElapsedDays';
+export { default as getElapsedHours } from './getElapsedHours';
+export { default as getHoursMinutes } from './getHoursMinutes';
+export { default as getPercentage } from './getPercentage';
+export { default as getPrettyDate } from './getPrettyDate';
+export { default as getRandomInt } from './getRandomInt';
+export { default as isEmptyObject } from './isEmptyObject';
+export { default as reorderArrayItems } from './reorderArrayItems';
+export { default as sortArrayOfObjectsByKey } from './sortArrayOfObjectsByKey';
+export { default as stringToTitleCase } from './stringToTitleCase';
+export { default as validateCellNumber } from './validateCellNumber';
+export { default as validateEmail } from './validateEmail';
+export { default as validateIDNumber } from './validateIDNumber';

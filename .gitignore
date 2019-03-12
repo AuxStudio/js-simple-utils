@@ -4,3 +4,6 @@ node_modules
 
 # VSCode
 settings.json
+
+# babel
+dist
