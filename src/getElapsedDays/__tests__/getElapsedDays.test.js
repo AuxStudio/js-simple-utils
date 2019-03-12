@@ -6,6 +6,6 @@ describe('getElapsedDays()', () => {
     const day = 1000 * 60 * 60 * 24; // ms * sec * min * hr
     const twoDaysAgo = time - 2 * day;
 
-    expect(getElapsedDays(twoDaysAgo)).toEqual(2);
+    expect(Math.round(getElapsedDays(twoDaysAgo))).toEqual(2);
   });
 });
