@@ -10,8 +10,8 @@
     "test": "jest --maxWorkers=4",
     "clean": "rm -rf dist && mkdir dist",
     "prebuild": "yarn run clean",
-    "build": "babel ./src -d ./dist --ignore test.js",
-    "prepublish": "yarn build",
+    "build": "babel ./src -d ./dist --ignore **/*.test.js",
+    "prepublish": "yarn build && yarn test",
     "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags"
   },
   "devDependencies": {
