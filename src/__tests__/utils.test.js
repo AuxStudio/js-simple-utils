@@ -1,7 +1,7 @@
-import utils from '..';
+import { addZeroPadding } from '..';
 
 describe('utils', () => {
   it('should work', () => {
-    expect(utils).toBeDefined();
+    expect(addZeroPadding).toBeDefined();
   });
 });
