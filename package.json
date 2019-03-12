@@ -1,6 +1,6 @@
 {
   "name": "js-simple-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of Javascript utilities that we use internally",
   "main": "index.js",
   "repository": "https://github.com/AuxStudio/js-simple-utils.git",

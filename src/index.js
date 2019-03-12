@@ -14,9 +14,7 @@ import getPrettyDate from './getPrettyDate';
 import getRandomInt from './getRandomInt';
 import isEmptyObject from './isEmptyObject';
 import reorderArrayItems from './reorderArrayItems';
-import snakeCaseToUpperCase from './snakeCaseToUpperCase';
 import sortArrayOfObjectsByKey from './sortArrayOfObjectsByKey';
-import stringToSnakeCase from './stringToSnakeCase';
 import stringToTitleCase from './stringToTitleCase';
 import validateCellNumber from './validateCellNumber';
 import validateEmail from './validateEmail';
@@ -39,9 +37,7 @@ export {
   getRandomInt,
   isEmptyObject,
   reorderArrayItems,
-  snakeCaseToUpperCase,
   sortArrayOfObjectsByKey,
-  stringToSnakeCase,
   stringToTitleCase,
   validateCellNumber,
   validateEmail,
@@ -65,9 +61,7 @@ export default {
   getRandomInt,
   isEmptyObject,
   reorderArrayItems,
-  snakeCaseToUpperCase,
   sortArrayOfObjectsByKey,
-  stringToSnakeCase,
   stringToTitleCase,
   validateCellNumber,
   validateEmail,
