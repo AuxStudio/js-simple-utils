@@ -70,5 +70,10 @@ npm login
 3. Run the publish script.
 
 ```
-yarn run publish
+npm publish
 ```
+
+## TODOS
+
+- Fix export (use one object for both)
+- Auto generate CHANGELOG with https://github.com/CookPete/auto-changelog
