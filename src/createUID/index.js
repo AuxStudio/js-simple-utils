@@ -1,14 +1,12 @@
-// Creates a unique id
 const createUID = () => {
-  let d = new Date().getTime();
-  if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
-    d += performance.now(); // use high-precision timer if available
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let autoId = '';
+
+  for (let i = 0; i < 20; i += 1) {
+    autoId += chars.charAt(Math.floor(Math.random() * chars.length));
   }
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
-    const r = (d + Math.random() * 16) % 16 | 0;
-    d = Math.floor(d / 16);
-    return (c === 'x' ? r : (r & 0x3) | 0x8).toString(16);
-  });
+
+  return autoId;
 };
 
-export default createUID;
+module.exports = createUID;
