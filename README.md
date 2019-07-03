@@ -76,4 +76,3 @@ npm publish
 ## TODOS
 
 - Fix export (use one object for both)
-- Auto generate CHANGELOG with https://github.com/CookPete/auto-changelog
